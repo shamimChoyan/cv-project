@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(153, 136, 138);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: azure;
+    margin: 0 auto;
+}
+
+
+.myImage{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 10px;
+    float: left;
+}
+
+.header-bio{
+    float: left;
+    padding-top: 35px;
+    padding-left: 10px;
+}
+p{
+    text-align: justify;
+}
+
+h1,h2,h3,h4,h5{
+    color: teal;
+}
+
+.header-info{
+    float: right;
+    padding-top: 35px;
+    padding-right: 20px;
+}
+
+.header-info p{
+    
+    color: teal;
+    font-weight: bold;
+}
+.header-info a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+.header-info a:hover{
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+.div-clear{
+    clear: both;
+
+}
+
+.personal-hr{
+    color: green;
+    margin: 10px;
+    border: 3px solid;
+    border-bottom: none;
+}
+
+/* personal info starts */
+
+#personal-section{
+    margin: 10px;
+}
+
+.content{
+
+    margin-bottom: 30px;
+
+}
+
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+
+.right-div{
+    width: 70%;
+    float: left;
+}
+
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    margin: 10px;
+}
+
+/* work-section */
+
+#work-section{
+    margin: 10px;
+}
+
+/* keySkill-section */
+
+#keySkill-section{
+    margin: 10px;
+}
+
+.right-div ul{
+    padding-left: 30px;
+
+}
+
+
+
+/* education-section */
+
+#education-section{
+    margin: 10px;
+}
+
+.left-edu{
+    float: left;
+}
+.right-edu{
+    float: right;
+}
+
+/* honorAward-section */
+
+#honorAward-section{
+    margin: 10px;
+}
+
+#reference-section{
+    margin: 10px;
+}
+
+/* footer */
+
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.footer a:hover{
+    color: tomato;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
